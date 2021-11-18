@@ -7,8 +7,8 @@ while (n <=10 ) {
 
 
 // Urmatorul cod v-a efectua actiunea inversa
-let n = 10;
-while (n >=1 ) {
-  console.log( n );
-  n--;
+let m = 10;
+while (m >=1 ) {
+  console.log( m );
+  m--;
 }
