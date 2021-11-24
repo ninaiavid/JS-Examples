@@ -14,16 +14,19 @@ function decrease() {
 }
 function colorBlue() {
     color='blue'
+    console.log(color);
     container.innerHTML=`<div class="box" 
     style="width: ${size}px; height: ${size}px; background-color: ${color}"></div>`
 }
 function colorRed() {
     color='red'
+    console.log(color)
     container.innerHTML=`<div class="box" 
     style="width: ${size}px; height: ${size}px; background-color: ${color}"></div>`
 }
 function colorGreen() {
     color='green'
+    console.log(color)
     container.innerHTML=`<div class="box" 
     style="width: ${size}px; height: ${size}px; background-color: ${color}"></div>`
 }
