@@ -6,8 +6,12 @@ let b=4;
     console.log(`${b} is the larger`);
 
 //2
-let n=-3;
-(a<0) ? console.log("The sign is -"):
+let n=3;
+let m=-7;
+let l=2;
+if (n<0 || m<0 || l<0){
+    console.log("The sign is -")
+} else
     console.log("The sign is +");
 
 //3
