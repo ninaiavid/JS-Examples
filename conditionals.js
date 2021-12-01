@@ -11,11 +11,34 @@ let n=-3;
     console.log("The sign is +");
 
 //3
-const points = [4, 0, -1];
-points.sort(function(a, b){return a - b});
-console.log(points);
+let num1=4;
+let num2=0;
+let num3=-1;
+if (num1>num2&&num1>num3){
+    (num2>num3) ? console.log(num1, num2, num3):
+    console.log(num1, num3, num2);
+} else if (num2>num1&&num2>num3){
+    (num1>num3) ? console.log(num2, num1, num3):
+    console.log(num2, num3, num1);
+}else  if (num3>num1&&num3>num2){
+    (num3>num2) ? console.log(num3, num1, num2):
+    console.log(num3, num2, num1);
+}
 
 //4
-const points1 = [ -5, -2, -6, 0, -1];
-points1.sort(function(a, b){return a - b});
-console.log(`The largest of five numbers is: ${points1[4]}`);
+let item1=-5;
+let item2=-2;
+let item3=-6;
+let item4=0;
+let item5=-1;
+if (item1>item2&&item1>item3&&item1>item4&&item1>item5){
+    console.log(item1);
+} else if (item2>item1&&item2>item3&&item2>item4&&item2>item5){
+    console.log(item2);
+} else if (item3>item1&&item3>item2&&item3>item4&&item3>item5){
+    console.log(item3);
+} else if (item4>item1&&item4>item2&&item4>item3&&item4>item5){
+    console.log(item4);
+} else {
+    console.log(item5);
+}
