@@ -9,7 +9,7 @@ let b=4;
 let n=3;
 let m=-7;
 let l=2;
-if (n<0 || m<0 || l<0){
+if ((n*m*l)<0){
     console.log("The sign is -")
 } else
     console.log("The sign is +");
