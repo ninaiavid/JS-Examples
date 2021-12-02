@@ -2,7 +2,7 @@
 //1
 let a=3;
 let b=4;
-(a>b) ? console.log(`${a} is the larger`): 
+(a>=b) ? console.log(`${a} is the larger`): 
     console.log(`${b} is the larger`);
 
 //2
