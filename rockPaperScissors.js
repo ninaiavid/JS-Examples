@@ -1,12 +1,10 @@
-let userChoice;
 const rock='rock';
 const paper='paper';
 const scissors='scissors';
 const getUserChoice = (userInput) => {
     userInput=userInput.toLowerCase();
     if (userInput == rock || userInput == paper || userInput == scissors){ 
-        userChoice=userInput;
-        console.log(userChoice)
+        return userInput;
     } else { console.log('Please write your choise right')}
 }
 const getComputerChoice = () => {
@@ -18,20 +16,23 @@ const getComputerChoice = () => {
     } else if (randomNumber==2){
             computerChoice=scissors;
     }
-    console.log(computerChoice);
+    return computerChoice;
 }
-const determineWinner = (userChoice, computerChoice) => {
-    if ((userChoice == rock && computerChoice == scissors) ||
-        (userChoice == scissors && computerChoice == paper)||
-        (userChoice == paper && computerChoice == rock)){
-        console.log("You won!");
-    } else if(userChoice == computerChoice){
+const determineWinner = (userInput, computerChoice) => {
+    if ((userInput == rock && computerChoice == scissors) ||
+        (userInput == scissors && computerChoice == paper)||
+        (userInput == paper && computerChoice == rock)){
+        console.log("User won!");
+    } else if(userInput == computerChoice){
         console.log("Game ends in a draw!")
     } else {
-        console.log("Wou lost!");
+        console.log("User lost!");
     }
 }
-
-getUserChoice('rock');
-getComputerChoice();
-determineWinner(userChoice, computerChoice);
+function playGame(){
+    let userChoice=getUserChoice('scissors');
+    computerChoice=getComputerChoice();
+    console.log(`the user choice is: ${userChoice} \nthe computer choice is: ${computerChoice}`);
+    determineWinner(userChoice, computerChoice);
+}
+playGame();
