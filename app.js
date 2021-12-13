@@ -42,16 +42,14 @@ if (userAge>18 && registeredEarly) {
     raceNumber+=1000};
 if (userAge>18 && registeredEarly) {
   time='9.30 am';
-  return time;
 } else if (userAge>18 && !registeredEarly) {
   time='11.00 am';
-  return time;
 } else if (userAge<18) {
   time='12.30 pm'
 } else {
   time=': see the registration desk';
-  return time;
 }
+return time;
 }
-raceTime(20, true);
+raceTime(20, false);
 console.log(`nr. ${raceNumber} will race at ${time}`);
