@@ -20,7 +20,7 @@ myAgeInDogYears=earlyYears+laterYears;//this will be my age in dog years
 return myAgeInDogYears;
 } 
 humanAgeInDogYears(36);
-console.log(`I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+console.log(`I am  ${myAgeInDogYears} years old in dog years.`);
 //3
 function answerMyQuestion(userName, userQuestion){
 let answer = ['It is certain', 'It is decidedly so', 'Reply hazy try again', 'Cannot predict now', 'Do not count on it', 'My sources say no', 'Outlook not so good', 'Signs point to yes'];
