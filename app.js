@@ -17,7 +17,7 @@ earlyYears*=10.5;//number of dog years accounted for my early years
 laterYears=myAge-2;//later years
 laterYears*=4;//number of dog years accounted for my later years
 myAgeInDogYears=earlyYears+laterYears;//this will be my age in dog years
-return myAge, myAgeInDogYears;
+return myAgeInDogYears;
 } 
 humanAgeInDogYears(36);
 console.log(`I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
