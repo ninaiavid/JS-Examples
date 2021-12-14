@@ -2,7 +2,7 @@ let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'ea
 
 let lastElement=secretMessage.pop();
 
-let newElement=secretMessage.push('to', 'program');
+let newElement=secretMessage.push('to', 'Program');
 
 let replace=secretMessage.indexOf('easily');
 secretMessage[replace]='right';
