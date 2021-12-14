@@ -15,5 +15,5 @@ replace=secretMessage.indexOf('get');
 secretMessage[replace]='know';
 let removedItems=secretMessage.splice((replace+1), 4)
 
-let message=secretMessage.join();
+let message=secretMessage.join(" ");
 console.log(message);
