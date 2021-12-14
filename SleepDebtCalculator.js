@@ -43,15 +43,13 @@ let getIdealSleepHours = () =>{
 let calculateSleepDebt = () =>{
     let actualSleepHours=getActualSleepHours();
     let idealSleepHours=getIdealSleepHours();
-    let debt;
+    let debt=actualSleepHours-idealSleepHours;
     if (actualSleepHours===idealSleepHours){
         console.log('You got the perfect amount of sleep!');
     } else if (actualSleepHours>idealSleepHours){
-        debt=actualSleepHours-idealSleepHours;
         console.log('You slept ' + debt + ' hours more then you need!');
     } else {
-        debt=idealSleepHours-actualSleepHours;
-        console.log('You should sleep ' + debt + ' hours more, to get rest!');
+        console.log('You should sleep ' + Math.abs(debt) + ' hours more, to get rest!');
     }
 }
 //console.log(getSleepHours('friday'));
