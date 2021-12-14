@@ -12,7 +12,7 @@ let remove=secretMessage.shift();
 let add=secretMessage.unshift('Programming');
 
 replace=secretMessage.indexOf('get');
-secretMessage[replace]='know';
+secretMessage[replace]='know,';
 let removedItems=secretMessage.splice((replace+1), 4)
 
 let message=secretMessage.join(" ");
