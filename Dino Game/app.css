@@ -1,0 +1,77 @@
+body {
+    background-color: #123;
+}
+
+#map {
+    border: 1px dotted white;
+    width: 800px;
+    height: 200px;
+    margin-top: 200px;
+    position: relative;
+
+}
+
+.cactus-big-2, 
+.cactus-big-3, 
+.cactus-small-1, 
+.cactus-small-3, 
+.cactus-small-5 {
+    border: 1px solid green;
+    background-image: url(icons/sprite.png);
+    position: absolute;
+    bottom: 0px;
+}
+
+#map .cactus-big-3 {
+    width: 81px;
+    height: 83px;
+    background-position: -679px 0;
+}
+
+#map .cactus-big-2 {
+    width: 79px;
+    height: 83px;
+    background-position: -600px 0;
+}
+
+#map .cactus-small-1 {
+    width: 26px;
+    height: 60px;
+    background-position: -356px 0;
+}
+
+#map .cactus-small-3 {
+    width: 26px;
+    height: 60px;
+    background-position: -411px 0;
+}
+
+#map .cactus-small-5 {
+    border: 1px solid green;
+    width: 26px;
+    height: 60px;
+    background-image: url(icons/sprite.png);
+    background-position: -465px 0;
+    position: absolute;
+    bottom: 0px;
+}
+
+#map .ground {
+    border: 1px solid green;
+    width: 800px;
+    height: 15px;
+    background-image: url(icons/sprite.png);
+    background-position: 0 -89px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#map .dino {
+    border: 1px solid green;
+    width: 70px;
+    height: 80px;
+    background-image: url(icons/sprite.png);
+    background-position: -61px 0;
+    position: absolute;
+    bottom: 0px;
+}
