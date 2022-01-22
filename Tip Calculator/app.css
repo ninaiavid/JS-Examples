@@ -1,0 +1,20 @@
+body {
+    background-color: #333;
+    color: white;
+    margin: 30px;
+}
+/* label {
+    display: block;
+    font-size: 150%;
+} */
+#bill-amount {
+    font-size: 100%;
+}
+select {
+    font-size: 100%;
+}
+button {
+    display: block;
+    margin-top: 30px;
+    font-size: 150%;
+}
