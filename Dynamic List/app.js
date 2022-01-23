@@ -1,3 +1,5 @@
+//din pacate nu am putut sa incarc fisierul geo.js. Imi spune ca e prea mare...
+
 let countryName;
 let idx;
 
