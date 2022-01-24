@@ -1,0 +1,37 @@
+body {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+h2 {
+    margin-left: 70px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+label{
+    width: 100px;
+    text-align: right;
+    margin-top: 10px;;
+    margin-right: 10px;
+    font-size:14px;
+}
+
+.error {
+    visibility: hidden;
+    color: red;
+    font-size: 12px;
+}
+
+#button {
+    border: 1px solid blue;
+    background-color: rgb(59, 143, 212);
+    color: white;
+    padding: 8px 115px;
+    border-radius: 5px;
+}

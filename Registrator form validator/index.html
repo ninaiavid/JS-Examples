@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form validator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h2>Register With US</h2>
+    <form name='registration' id="myForm">
+        <ul>
+            <li><label for="username">Username</label></li>
+            <li id="username"><input type="text" name="username" size="35" placeholder="Enter username"></li>
+            <li class="error">Username must be at least 3 characters</li>
+            <li><label for="email">Email</label></li>
+            <li id="email"><input type="email" name="email" size="35" placeholder="Enter email"></li>
+            <li class="error">Email is not valid</li>
+            <li><label for="password">Password</label></li>
+            <li id="password"><input type="password" name="password" size="35" placeholder="Enter password"></li>
+            <li class="error">Password must be at least 6 characters</li>
+            <li><label for="password">Confirm Password</label></li>
+            <li id="confirm-password"><input type="password" name="confirm-password" size="35" placeholder="Enter password again"></li>
+            <li class="error">Please confirm your password</li>
+            <li><input type="button" id="button" value="Submit"/></li>
+        </ul>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
